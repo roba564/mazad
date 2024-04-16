@@ -103,8 +103,6 @@ a:hover{
     background: #c48e5c;
     border: none;
     height: 45px;
-    margin-left: 55px;
-    margin-top: 20px;
     border-radius: 25px;
     outline: none;
     text-transform: uppercase;
@@ -154,4 +152,37 @@ a:hover{
     margin-bottom: 5px;
 }
 
+.btnPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+@media (min-width: 1200px) and (max-width:1400px) {
+    
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    
+}
+
+@media (min-width: 480px) and (max-width:768px) {
+    
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .heading h4 {
+        font-size: 16px;
+        width: 125px;
+    }
+
+    .imglogoo {
+        width: 180px;
+        height: 90px;
+    }
+}
