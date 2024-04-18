@@ -9,9 +9,10 @@ form{
     max-width: 100%;
     max-height: max-content;
 }
-.labelnon{
-    margin-right: 200px;
-    padding-bottom: 80px;
+.Noaccount{
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
     
   }
 
@@ -22,13 +23,11 @@ form{
    
 
  }
-
- .spanloginNowbtn{
-    padding-left: -40px;
-    margin-top: -90px;
-    padding-right: 10px;
+ h4{
+    font-size: 22px;
  }
 
+ 
 
 .imglogoo{
     width: 300px;
@@ -113,6 +112,12 @@ a:hover{
     cursor: pointer;
     letter-spacing: 1px;
     transition: all .7s;
+}
+.cardForget{
+    margin-top: 120px;
+}
+.cardCraete{
+    margin-top: 120px;
 }
 .btn:hover{
     background-color: #000;
@@ -206,6 +211,20 @@ a:hover{
     .imglogoo {
         width: 180px;
         height: 90px;
+    }
+    .imgDone{
+        width: 4110px;
+        height: 110px; 
+    }
+   
+    .textDone{
+        font-size: 18px;
+        margin-left: 120px;
+    }
+    .divDone{
+        text-align: center;
+        width: 580px !important;
+        height: 190px;
     }
 
     .btnlogin {
