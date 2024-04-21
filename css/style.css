@@ -6,6 +6,11 @@ body{
     font-family: Amiri;
 
 }
+
+input::placeholder {
+    font-family:  Tajawal, sans-serif;
+}
+
 form{
     max-width: 100%;
     max-height: max-content;
@@ -34,7 +39,7 @@ form{
     width: 300px;
     height: 140px;
 }
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Dosis&display=swap');
+
 a{
     color: #fff;
 }
@@ -195,9 +200,32 @@ a:hover{
     .btnlogin {
         font-weight: 600;
     }
+
+    .heading h4 {
+        font-size: 20px;
+        width: 225px;
+    }
 }
 
 @media (min-width: 480px) and (max-width:768px) {
+    .btnlogin {
+        font-weight: 600;
+    }
+
+    .heading h4 {
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .imglogoo {
+        width: 180px;
+        height: 90px;
+    }
+    .imgDone {
+        width: 70px;
+        height: 70px;
+    }
+
     .btnlogin {
         font-weight: 600;
     }
@@ -206,26 +234,16 @@ a:hover{
 @media (min-width: 320px) and (max-width:480px) {
     .heading h4 {
         font-size: 16px;
-        width: 125px;
+        width: 180px;
     }
 
     .imglogoo {
         width: 180px;
         height: 90px;
     }
-    .imgDone{
-        width: 4110px;
-        height: 110px; 
-    }
-   
-    .textDone{
-        font-size: 18px;
-        margin-left: 120px;
-    }
-    .divDone{
-        text-align: center;
-        width: 580px !important;
-        height: 190px;
+    .imgDone {
+        width: 70px;
+        height: 70px;
     }
 
     .btnlogin {
